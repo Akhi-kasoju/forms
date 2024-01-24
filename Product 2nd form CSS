@@ -1,0 +1,143 @@
+.test {
+    display: flex;
+     flex-direction: row;
+    
+ }
+
+ form{
+    max-width: 500px;
+    margin: auto;
+    
+
+ }
+ 
+ .card {
+   border: 1px solid #dadada;
+   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.2s;
+   width: 70%;
+   height: 70%;
+   margin: 1%;
+ }
+ 
+  .card h3 {
+   padding: 2px;
+   margin: 20px 0;
+
+ } 
+ 
+ .card:hover {
+   box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card .container {
+   padding: 2px 14px;
+ }
+ 
+ .card p {
+   margin: 14px 0;
+ }
+
+
+ body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    
+  }
+  
+  .full-name {
+    display: flex;
+  
+  }
+.text-field{
+  width: 50%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+.address{
+  display: flex;
+}
+
+.tele{
+  width: 50%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.details{
+  display: flex;
+}
+
+.dot{
+  width: 50%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.value{
+  display: flex;
+}
+
+.opt{
+  width: 100%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.required::after {
+  content: ' *';
+  color: red;
+}
+ 
+  input[type=text] {
+    width: calc(50% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+  
+  input[type=text]:first-child { 
+     margin-right:20px; 
+  } 
+
+  input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom:16px;
+  }
+  
+  input[type=submit] {
+   background-color:#4CAF50;
+   color:white;
+   padding:12px20px; border:none; border-radius:4px; cursor:pointer; }
+  
+   input[type=submit]:hover { background-color:#45a049; }
+
+  
+
+
+
+button {
+  
+   background-color: blue; 
+   color: white; 
+   padding: 10px 30px; 
+   border: none;
+   border-radius: 4px; 
+   cursor: pointer;
+   
+}
+
+button:hover {
+   background-color: #45a049;
+}
+  

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    
+  }
+  
+  .full-name {
+    display: flex;
+  
+  }
+.text-field{
+  width: 50%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+.address{
+  display: flex;
+}
+
+.tele{
+  width: 50%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.details{
+  display: flex;
+}
+
+.dot{
+  width: 50%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.value{
+  display: flex;
+}
+
+.opt{
+  width: 100%;
+  margin:1%;
+  box-sizing: border-box;
+}
+
+.required::after {
+  content: ' *';
+  color: red;
+}
+ 
+  input[type=text] {
+    width: calc(50% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+  
+  input[type=text]:first-child { 
+     margin-right:20px; 
+  } 
+
+  input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom:16px;
+  }
+  
+  input[type=submit] {
+   background-color:#4CAF50;
+   color:white;
+   padding:12px20px; border:none; border-radius:4px; cursor:pointer; }
+  
+   input[type=submit]:hover { background-color:#45a049; }
+
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+button {
+  
+   background-color: blue; 
+   color: white; 
+   padding: 10px 30px; 
+   border: none;
+   border-radius: 4px; 
+   cursor: pointer;
+   
+}
+
+button:hover {
+   background-color: #45a049;
+}
+  

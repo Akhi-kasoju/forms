@@ -1,0 +1,151 @@
+img{
+    position:relative;
+    width:100%;
+    height:50%;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+   
+ }
+ .test {
+    display: flex;
+     flex-direction: row;
+    
+ }
+
+ 
+ .card {
+    border: 1px solid #dadada;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    width: 70%;
+    height: 70%;
+    margin: 1%;
+  }
+  
+   .card h3 {
+    padding: 2px;
+    margin: 20px 0;
+ 
+  } 
+  
+  .card:hover {
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .container {
+    padding: 2px 14px;
+  }
+  
+  .card p {
+    margin: 14px 0;
+  }
+
+  .full-name {
+    display: flex;
+    
+  
+  }
+
+.text-field{
+width: 30%;
+height: 30px;
+margin: 1px;
+border-radius: 2px;
+box-sizing: border-box;
+}
+
+.dot{
+    width:64%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.red{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.address{
+    display: flex;
+    
+  }
+  
+  .tele{
+    width: 50%;
+    height: 30;
+    margin:1%;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+
+  .area{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    box-sizing: border-box;
+  }
+
+  
+
+  details {
+    user-select: none;
+    background-color: #9bd3e0ee;
+    color: rgb(7, 6, 6);
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+  }
+  details .texs{
+    width: 20%;
+    height: 30px;
+    color: chocolate;
+    margin: 5px;
+    justify-content: center;
+    padding-left: 15px;
+    border: dotted;
+    border-color:seagreen;
+  }
+  
+  details[open] summary span.icon {
+    transform: rotate(180deg);
+  }
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  button.old{
+    background-color: rgb(47, 165, 66); 
+   color: white; 
+   padding: 10px 30px; 
+   border: none;
+   border-radius: 4px; 
+   cursor: pointer;
+   
+  }
+
+  button:hover {
+    background-color: #64cddb;
+ }

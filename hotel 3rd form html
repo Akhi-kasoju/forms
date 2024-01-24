@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="hotel..css">
+<script src="hotel.js"></script>
+</head>
+<body>
+    <form>
+
+          
+    <div class="test">
+      
+        
+        <div class="card">
+         <img src="https://img.freepik.com/free-psd/double-bed-with-white-bedding-isolated_176382-159.jpg?size=626&ext=jpg" alt="Avatar" style="width: 100%; height: 100%;">
+         <div class="container">
+
+         </div>
+        </div> 
+
+        
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="Avatar" style="width: 100%; height: 100%;">
+         <div class="container">
+
+         </div>
+        </div>
+
+        <div class="card">
+            <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202401/65a55ebcb20c5-aicwa-urges-indian-filmmakers-to-avoid-maldives-for-film-shoot-150304554-16x9.jpg?size=948:533" alt="Avatar" style="width: 100%; height: 100%;">
+            <div class="container">
+            
+            </div>
+        </div>
+    </div>    
+    <div class="won">  
+    <h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hotel Booking</h2>
+
+
+    <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience something new every moment</p1>
+    </div>
+
+    <br>
+<br>
+<br>
+
+        
+        
+
+         <div class="full-name">   
+             
+            <label class="full-name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              
+                <input type="text" class="text-field" id="first-name" name="first-name">
+                
+                &nbsp;&nbsp;
+                <input type="text" class="text-field"  id="last-name" name="last-name">
+                
+         </div>
+
+         &nbsp;
+
+         
+         
+         <label id="mylabel" style="color:rgb(106, 114, 114);font-weight:300;"
+         for="first-name" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First-Name</label> &nbsp;
+         
+        
+         <label id="mylabel" style="color:rgb(112, 122, 122);font-weight:250;"
+         for="last-name" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last-Name</label> &nbsp;     
+    <br>
+    <br>
+    <br>
+    
+
+    <label for="email">&nbsp;E-mail</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" class="dot" id="email" name="email" placeholder="ex:email@yahoo.com" required><br>
+     <br>
+     <br>
+     <br>  
+
+    
+
+           <div class="value">
+
+            <label >Room Type</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="source"  class="opt" name="source" >
+                <option value="" selected>Private Room (1 to 3 People)</option>
+                <option value="" selected>Mix Dorm Room (6 People)</option>
+                <option value="" selected>Female Dorm Room (6 People)</option>
+                <option value="" selected>Male Dorm Room (6 People)</option>
+                <option value="" disabled selected>Please Select</option>
+                
+            </select>
+           </div>
+           <br><br><br>
+           <div>
+            <label class="required">Number of Guests</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+           <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+           <input type="number" id="number" value="0" />
+           <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+           </div>
+           <br><br>
+           <br>
+
+           <div>
+               
+             <label class="required">Arrival Date & Time</label>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="date" id="date" name="date">
+             <input type="time" id="date" name="date">
+           </div>
+          <br>
+          <br><br>
+          <div>
+              
+             <label class="required">Departure Date</label> 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <select id="source"  class="opt" name="source" >
+                <option value="" selected>January</option>
+                <option value="" selected>February</option>
+                <option value="" selected>March</option>
+                <option value="" selected>April</option>
+                <option value="" selected>May</option>
+                <option value="" selected>June</option>
+                <option value="" selected>July</option>
+                <option value="" selected>August</option>
+                <option value="" selected>September</option>
+                <option value="" selected>October</option>
+                <option value="" selected>November</option>
+                <option value="" selected>December</option>
+                <option value="" disabled selected>Please Select</option>
+                
+            </select> 
+            
+            <select id="source" classs="opt" name="source">
+                <option value="" selected>1</option>
+                <option value="" selected>2</option>
+                <option value="" selected>3</option>
+                <option value="" selected>4</option>
+                <option value="" selected>5</option>
+                <option value="" selected>6</option>
+                <option value="" selected>7</option>
+                <option value="" selected>8</option>
+                <option value="" selected>9</option>
+                <option value="" selected>10</option>
+                <option value="" selected>11</option>
+                <option value="" selected>12</option>
+                <option value="" selected>13</option>
+                <option value="" selected>14</option>
+                <option value="" selected>15</option>
+                <option value="" selected>16</option>
+                <option value="" selected>17</option>
+                <option value="" selected>18</option>
+                <option value="" selected>19</option>
+                <option value="" disabled selected>Please Select</option>
+            </select>
+
+            <select id="source" class="opt" name="source">
+                <option value="" selected>2024</option>
+                <option value="" selected>2025</option>
+                <option value="" selected>2026</option>
+                <option value="" selected>2027</option>
+                <option value="" selected>2028</option>
+                <option value="" selected>2029</option>
+                <option value="" selected>2030</option>
+                <option value="" disabled selected>Please Select</option>
+            </select>
+             
+            
+          </div>
+          <br>
+          <br><br>
+          <div>
+           
+            <label for="recommend" class="required">Free Pickup?</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="yes" name="recommend" value="yes">
+            <label for="yes">Yes Please! - Pick me up on arrival</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="no" name="recommend" value="no">
+            <label for="no">No Thanks - I'll make my own way there</label>
+          </div>
+          <br><br>
+          <br>
+          <div>
+            
+            <label>Flight Number</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Flight" name="Flight">
+             
+          </div>
+          <br><br><br>
+          <div>
+          <label for="Special">Special Requests</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <textarea id="Special"></textarea>
+           </div>
+           <br>
+           <br><br>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type = "submit">Submit</button>
+    </form>
+</body>

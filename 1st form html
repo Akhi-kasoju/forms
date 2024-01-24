@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customer Registration Form</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;New Customer Registration Form</h1>
+
+<form action="/submit" method="post">
+    <div class="customer-details">
+        <h2>Customer Details:</h2>
+        
+        <label class="required">Full Name</label>
+        
+        <br>
+
+         <div class="full-name">   
+             
+             <br>
+              
+                <input type="text" class="text-field" id="first-name" name="first-name">
+                
+                
+                <input type="text" class="text-field"  id="last-name" name="last-name">
+                
+         </div>
+         &nbsp;
+
+         
+         
+         <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+         for="first-name" >First-Name</label> &nbsp;
+         
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;       &nbsp;&nbsp;  
+         <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+         for="last-name" >Last-Name</label> &nbsp;     
+    <br>
+    <br>
+        
+            <label class="required" >Address </label><br>
+            <br>
+            <input type="text" id="street-address" name=street-address><br>
+            <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+            for="street-address" >Street-Address</label> &nbsp;
+            <br>
+            <br>
+
+                
+            
+            <input type="text" id="" name="" placeholder=""><br> 
+            <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+            for="street-address" >Street-Address Line 2</label> &nbsp;
+            <br>
+            <br>
+            <div class="address">
+            <input type="text" class="tele" id="" name="" placeholder=""><br> 
+            
+
+            <input type="text" class="tele"  id="" name="" placeholder=""><br> 
+            
+        </div>
+        &nbsp;
+        <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+        for="City" >City</label> &nbsp;
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+            for="state/province" >State/Province</label> &nbsp;
+            <input type="text" id="postal" name="postal" placeholder=""><br> 
+            <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+            for="postal" >Postal / Zip-code</label> &nbsp;
+            
+
+            <br>
+            <br>
+            <br>
+            &nbsp;  
+            <label class="required">Phone Number </label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">E-mail</label>
+            <div class="details"> 
+                
+                <input type="tel" class="dot" id="phone" name="phone" placeholder="(000) 000-0000" required><br>
+            
+                
+                <input type="email" class="dot" id="email" name="email" placeholder="ex:email@yahoo.com" required><br>
+            </div>
+
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label id="mylabel" style="color:rgb(213, 230, 230);font-weight:300;"
+                 for="example" >example@emaple.com</label> &nbsp;
+           <br>
+           <br>
+           <br>
+           
+           &nbsp;
+           <label class="required">How did you hear about us? </label>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+           <label class="required">Please Specify </label>
+
+           <div class="value">
+           
+            <select id="source"  class="opt" name="source" required>
+                <option value="" selected>Others</option>
+                <option value="" selected>NewsPaper</option>
+                <option value="" selected>Magazine</option>
+                <option value="" selected>Internet</option>
+                <option value="" disabled selected>Please Select</option>
+                
+            </select><br>
+        
+            <input type="text"  class="opt" id="specify" name ="specify"><br>
+
+           </div>
+            <br>
+            <br>
+            <label for ="feedback">Feedback about us:</label><br>
+            <textarea id ="feedback"></textarea><br>
+        
+              <label for ="suggestions">Suggestions if any for further improvement:</label><br> 
+              <textarea id ="suggestions"></textarea> 
+          
+               
+              <label for="recommend">Will you be willing to recommend us?</label><br>
+              <br>
+              <input type="radio" id="yes" name="recommend" value="yes">
+              <label for="yes">Yes</label><br>
+              <input type="radio" id="no" name="recommend" value="no">
+              <label for="no">No</label><br>
+              <input type="radio" id="maybe" name="recommend" value ="maybe">
+              <label for ="maybe">Maybe</label><br>
+               
+              <br>
+              <br>
+              <p>Please give reference of any two people whom you feel:</p>
+              
+          
+              <style>
+                table, th, td {
+                  border:1px solid black;
+                   border-radius: 10px;             } 
+                </style>
+                <body>
+                
+                
+                
+                <table style="width:100%">
+                  <tr>
+                    <th border-style:hidden;></th>
+                    <th>Fullname</th>
+                    <th>Address</th>
+                    <th>Contact</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <td contenteditable='true'></td>
+                    <td contenteditable='true'></td>
+                    <td contenteditable='true'></td>
+                  </tr>
+                  <tr>
+                    <th>2</th>
+                    <td contenteditable='true'></td>
+                    <td contenteditable='true'></td>
+                    <td contenteditable='true'></td>
+                  </tr>
+                </table>
+                </body>
+               <br>
+
+               <br>
+               <br>
+          
+               
+          
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type = "submit">Submit</button>
+        
+        
+    
+        
+    </div>
+    
+      <br><br>
+      <br>     
+</form>
+
+</body>
+</html>
